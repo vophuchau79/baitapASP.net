@@ -24,6 +24,14 @@
   
   ![img](16.GIF)
   
+  - ngoài ra khi ở chế độ quản lí bạn có thể cập nhật các tour mới và xóa các tour cũ:
+  (minh họa ảnh dưới)
+  
+  ![img](17.GIF)
+  
+  
+  
+  
   
   
   

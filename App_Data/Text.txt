@@ -1,0 +1,2 @@
+﻿Xin chào, đây là thông tin của bạn: Tên: ##Name##, Email: ##Email##, 
+Số điện thoại: ##Phone##, Ghi chú: ##Comments##

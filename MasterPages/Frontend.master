@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Frontend.master.cs" Inherits="MasterPages_Frontend" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="../Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="PageWrapper">
+        <header id="phongnha">PHONG NHA KẼ BÀNG</header>
+        <nav></nav>
+        <section id="MainContent">
+            <div class="containerr">
+          &nbsp;
+          <nav>
+          <ul>
+                <a href="Content.aspx">Trang chủ</a>
+                <a href="Trang2.aspx">Thông Tin</a>
+                <a href="Login.aspx">Đăng kí</a>
+               <a href="csdl2.aspx">Danh Sách Tour</a>
+          </ul>
+        </nav>
+      </div>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+             <aside id="Sidebar"> 
+            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged1">
+                <asp:ListItem>Coban</asp:ListItem>
+                <asp:ListItem>Dasac</asp:ListItem>
+            </asp:DropDownList>
+        </aside>
+        </section>
+       
+
+    </div>
+    </form>
+    <footer>Du Lich Phong Nha - Phong Nha Explorer © 2019<br />
+   Posts by Du Lich Phong Nha, Du Lich Phong Nha on Google+, XML SiteMap, SiteMap Gzip</footer>
+</body>
+   
+</html>

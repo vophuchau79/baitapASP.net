@@ -1,0 +1,246 @@
+﻿body {
+  font: 20px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: url(images/anh22.jpg);
+    background-size:auto;
+  background-attachment:fixed;
+}
+
+.containerr{
+ 
+overflow: hidden;
+ 
+font-size:26px;
+ 
+width: 187px;
+ 
+display:inherit;
+ 
+background:#26e6c8;
+ 
+width:100%;
+ 
+padding:2%;
+ 
+margin-top: -7px;
+}
+nav {
+    float:left;
+    width:200px;
+}
+.containerr ul{  
+  width:500%;
+  margin: 0% 0% 0% 270%;
+
+}
+.containerr a{
+  background:#4a56ab;
+  font-weight:bold;
+  color:white;
+  border:1px solid white;
+  padding:1%;
+  margin-right:2%;
+}
+a{
+  text-decoration:none;
+}
+h1 {
+  color: #021515;
+}
+p {
+  color: #000000;
+    margin-left: 0px;
+}
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background: #5a5f56;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-left: 550px;
+  min-height: 70px;
+  border-bottom: #32a0c2 3px solid;
+  font-size: 48px;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+ .box {
+
+    margin-left: 27px;
+    margin-top: 0px;
+    width: 841px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+  font-size: 40px;
+    margin-left: 0px;
+    margin-bottom: 2px;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+    height: 70px;
+}
+
+header .highlight, header .current a {
+  color: #7f0ee4;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+#showcase {
+  
+ 
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  height:auto;
+}
+
+#newsletter {
+  padding: 30px;
+  color: #51c21d;
+  background: #12497b;
+}
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+.button_1{
+  height: 38px;
+  background: #cccccc;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #353637;
+}
+
+#boxes{
+  margin-top: 20px;
+}
+
+#box{
+  float:left;
+  text-align: center;
+  width: 65%;
+  padding: 10px;
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #32a0c2;
+  text-align: center;
+}
+
+aside#sidebar {
+  float: right;
+  
+  padding: 5px;
+    height: 349px;
+}
+
+article#main-col{
+  float: left;
+  width: 65%;
+}
+
+aside#sidebar input, aside#sidebar textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+Services ul#services li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #32a0c2;
+}
+
+ul#services h3{
+  border-bottom: #353637 solid 1px;
+}
+@media(max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    #showcase h1 {
+        margin-top: 40px;
+    }
+
+    #newsletter button {
+        display: block;
+        width: 100%;
+    }
+
+    #newsletter form input[type="email"],
+    .contact input,
+    .contact textarea,
+    .contact label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #h3 {
+        background-color: #3e1f2d;
+    }
+}
